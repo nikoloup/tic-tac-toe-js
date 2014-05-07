@@ -1,0 +1,82 @@
+body{
+	background-color:#E3CFFC;
+}
+
+#header{
+	border: 2px solid;
+	background-color: #BF95F5;
+	margin-bottom: 10px;
+}
+
+#all{
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+table, td{
+	border: 1px solid gray;
+}
+
+table{
+	border-collapse: collapse;	
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+#sidebar {
+	width:200px;
+	background-color: #A59BB3;
+	border: 1px solid;
+}
+
+#sidebar form{
+	padding: 10px;
+}
+
+#sidebar form p{
+	font-weight: bold;
+	text-align: center;
+}
+
+#sidebar form button{
+	text-align:center;
+}
+
+#sett_title{
+	font-size: 1.4em;
+}
+	
+
+#main {
+	width: 590px;
+	float: right;
+}
+
+#main table{
+	margin: 0 auto;
+}
+
+#messages{
+	text-align: center;
+	padding: 10px;
+}
+
+.error, .loss{
+	color: red;
+}
+
+.draw{
+	color: orange;
+}
+
+.win{
+	color: green;
+}
+

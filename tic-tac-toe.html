@@ -1,0 +1,72 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="tic-tac-toe.css" />
+
+<script src="./tic-tac-toe.js"></script>
+
+</head>
+
+
+<body>
+
+<div id="all">
+
+<div id="header">
+<h1>Tic - Tac - Toe </h1>
+</div>
+
+<div id="main">
+
+<table>
+
+<tr>
+	<td id="g0" onclick="mark_player(this.id);"></td>
+	<td id="g1" onclick="mark_player(this.id);"></td>
+	<td id="g2" onclick="mark_player(this.id);"></td>
+</tr>
+<tr>
+	<td id="g3" onclick="mark_player(this.id);"></td>
+	<td id="g4" onclick="mark_player(this.id);"></td>
+	<td id="g5" onclick="mark_player(this.id);"></td>
+</tr>
+<tr>
+	<td id="g6" onclick="mark_player(this.id);"></td>
+	<td id="g7" onclick="mark_player(this.id);"></td>
+	<td id="g8" onclick="mark_player(this.id);"></td>
+</tr>
+
+</table>
+
+<div id="messages"></div>
+
+</div>
+
+
+
+<div id="sidebar">
+
+<form id="settings">
+
+<p><span id="sett_title">Settings</span></p>
+
+<p>Who will play first:</p>
+<input type="radio" name="first" value="-1" checked="checked"> You <br />
+<input type="radio" name="first" value="1"> CPU <br />
+
+<p>You will play as: </p>
+<input type="radio" name="mark" value="x" checked="checked"> X <br />
+<input type="radio" name="mark" value="o"> O <br />
+
+</form>
+
+<div align="center"><button onclick="start();">Start new game!</button></div> <br />
+
+</div>
+
+</div>
+
+
+</body>
+
+</html>
